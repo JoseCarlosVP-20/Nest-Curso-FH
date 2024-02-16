@@ -54,11 +54,3 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
-
-#Ignore project specific node_modules
-nest-car-dealership/node_modules
-nest-car-dealership/build
-
-pokedex/node_modules
-pokedex/build
