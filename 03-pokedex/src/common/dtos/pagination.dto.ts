@@ -1,12 +1,12 @@
-import { IsOptional, IsPositive, Min } from 'class-validator/types';
+import { IsOptional, IsPositive, Min } from 'class-validator';
 
 export class PaginationDto {
   @IsOptional()
   @IsPositive()
   @Min(1)
-  readonly limit: number;
+  readonly limit?: number;
 
   @IsOptional()
   @IsPositive()
-  readonly page: number;
+  readonly offset?: number;
 }
