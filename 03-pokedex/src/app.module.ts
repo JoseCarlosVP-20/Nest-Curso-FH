@@ -25,5 +25,3 @@ import { SeedModule } from './seed/seed.module';
   providers: [],
 })
 export class AppModule {}
-
-console.log(process.env);
